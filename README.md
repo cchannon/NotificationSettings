@@ -12,8 +12,7 @@ Notifications are grouped into categories, and each category is collapsible as a
 
 The entire control uses virtualized components from Fluent V8 and V9 so it is very quick and efficient to load. 
 
-## Demo:
-[demo gif](./assets/)
+![demo gif](./assets/notificationsettingsDemo.gif?)
 
 ## Recommended Implementation:
 I recommend attaching the PCF to a view entirely and setting that view as the default of your Notifications in the left nav. From there, adding it as an IFrame app in Teams is simple, and with the shownavbar QSparam set to False, users will not see any of the app navigation and it will feel like a Teams-embedded notifications management interface (optimal for users who spend minimal time in the app, but still receive notifications from it).
